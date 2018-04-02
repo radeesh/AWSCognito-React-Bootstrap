@@ -1,19 +1,29 @@
-# AWSCognito-React-Bootstrap
+# React App
 Simple AWS Cognito example with React and React Bootstrap UI
-
-
-### Uses
-- aws-sdk
-- react
-- react-bootstrap
-- webpack
-
 
 ### Run
 ``` sh
 $ node -v
 v8.6.0
-$ npm install
-$ npm run watch
+$ yarn install
 ```
-Open the index.html file inside src/
+
+Spin up dev server localhost:3000 and watch for changes
+``` sh
+$ yarn dev
+```
+
+Build project 
+``` sh
+$ yarn build
+```
+
+App dev localhost:3000
+
+### Requirements
+- aws-sdk
+- react
+- react-bootstrap
+- webpack
+- yarn
+
